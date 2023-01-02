@@ -20,7 +20,7 @@
 
 
     <!-- LOADING AREA START ===== -->
-    <div class="loading-area">
+    {{-- <div class="loading-area">
         <div class="loading-box"></div>
         <div class="loading-pic">
             <div class="loader">
@@ -42,9 +42,9 @@
                 <span class="block-16"></span>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- LOADING AREA  END ====== -->
- 
+
 <x-web.scripts-component />
 </body>
 
