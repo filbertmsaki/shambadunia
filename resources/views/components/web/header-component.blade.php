@@ -21,8 +21,8 @@
                             <a href="javascript:;">{{ __('response.branding_events.title') }}<i
                                     class="fa fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                @foreach (trans()->get('response.branding_events.events') as $key => $value)
-                                    <li><a href="{{ route('web.branding.events', $key) }}">{{ $value['title'] }}</a>
+                                @foreach (trans()->get('response.services.branding_events.lists') as $key => $value)
+                                    <li><a href="{{ route('web.service.more', ['service' => 'branding_events', 'key' => $key]) }}">{{ $value['title'] }}</a>
                                     </li>
                                 @endforeach
 

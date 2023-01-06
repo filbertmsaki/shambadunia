@@ -397,7 +397,7 @@
                 <div class="section-content m-b30">
 
                     <div class="owl-carousel blog-carousel  owl-btn-vertical-center">
-                        @foreach (trans()->get('response.branding_events.events') as $key => $value)
+                        @foreach (trans()->get('response.services.branding_events.lists') as $key => $value)
                             <div class="item">
                                 <div class="ow-event-post date-style-2">
                                     <div class="ow-event-media wt-img-effect zoom-slow">
@@ -406,7 +406,7 @@
                                     <div class="ow-event-info p-a20 bg-gray">
                                         <div class="ow-event-title">
                                             <h4 class="event-title"><a
-                                                    href="{{ route('web.branding.events', $key) }}"
+                                                    href="{{ route('web.service.more', ['service' => 'branding_events', 'key' => $key]) }}"
                                                     title="Video post">{{ $value['title'] }}</a></h4>
                                         </div>
                                         <div class="ow-event-text">
@@ -424,7 +424,7 @@
                                         </div>
                                         <div class="clearfix">
                                             <div class="ow-event-readmore pull-left">
-                                                <a href="{{ route('web.branding.events', $key) }}"
+                                                <a href="{{ route('web.service.more', ['service' => 'branding_events', 'key' => $key]) }}"
                                                     class="site-button">{{ __('response.read_more') }} <i
                                                         class="fa fa-angle-double-right"></i></a>
                                             </div>

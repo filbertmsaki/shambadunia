@@ -12,27 +12,13 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="widget recent-posts-entry-date">
-                        <h4 class="widget-title">{{ __('resent_post') }}</h4>
-                        <div class="widget-post-bx">
-                            {{-- <div class="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
-                                <div class="wt-post-date text-center text-uppercase text-white p-t5">
-                                    <strong>20</strong>
-                                    <span>Mar</span>
-                                </div>
-                                <div class="wt-post-info">
-                                    <div class="wt-post-header">
-                                        <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
-                                    </div>
-                                    <div class="wt-post-meta">
-                                        <ul>
-                                            <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div> --}}
-                        </div>
+                    <div class="widget widget_services">
+                        <h4 class="widget-title">{{ __('response.important_links') }}</h4>
+                        <ul>
+                            <li><a href="https://kilimomarathon.co.tz/">{{ __('response.kme') }}</a></li>
+                            <li><a href="https://actanzania.or.tz/">{{ __('response.act') }}</a></li>
+                            <li><a href="https://sagcot.co.tz/" target="__blank">{{ __('response.sagcot') }}</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">

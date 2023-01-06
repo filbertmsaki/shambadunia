@@ -14,7 +14,7 @@
         <!-- CONTENT START -->
       {{ $slot }}
         <x-web.footer-component />
-        <button class="scroltop"><span class=" iconmoon-house relative" id="btn-vibrate"></span>Top</button>
+        <button class="scroltop"><span class=" iconmoon-house relative" id="btn-vibrate"></span>{{ __('response.top') }}</button>
     </div>
 
 

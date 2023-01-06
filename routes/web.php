@@ -19,7 +19,8 @@ Route::group(['as' => 'web.'], function () {
     Route::get('/', [WebController::class, 'index'])->name('index');
     Route::get('/about-us', [WebController::class, 'about_us'])->name('about_us');
     Route::get('/services', [WebController::class, 'services'])->name('services');
-    Route::get('/service/{service}', [WebController::class, 'service'])->name('service');
+    Route::get('/services/{service}', [WebController::class, 'service'])->name('service');
+    Route::get('/services/{service}/{key}', [WebController::class, 'service_more'])->name('service.more');
     Route::get('/contact-us', [WebController::class, 'contact_us'])->name('contact_us');
     Route::post('/contact-us', [WebController::class, 'contact_us_store'])->name('contact_us.store');
     Route::post('/subscriber', [WebController::class, 'subscriber'])->name('subscriber.store');

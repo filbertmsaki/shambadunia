@@ -14,117 +14,45 @@
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/shambadunia.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('img/serikali.jpg') }}" alt=""></a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/kmae.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('img/sagcot.jpg') }}" alt=""></a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/shambadunia.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('img/act.jpg') }}" alt=""></a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/kmae.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('img/shambafm.jpg') }}" alt=""></a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/shambadunia.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('img/aboodfm.jpg') }}" alt=""></a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/kmae.jpg') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('img/kme.jpg') }}" alt=""></a>
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/shambadunia.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/kmae.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/shambadunia.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/kmae.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/shambadunia.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/kmae.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/shambadunia.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/kmae.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/shambadunia.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/kmae.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
         </div>
         <!-- IMAGE CAROUSEL START -->

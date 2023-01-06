@@ -30,7 +30,24 @@ class WebController extends Controller
         foreach ($results as $key => $value) {
             $service =  (object)$value;
             if ($id == $key) {
-                return view('web.service', compact('service'));
+                return view('web.service', compact('service','id'));
+            }
+        }
+        return redirect()->route('web.index');
+    }
+
+    public function service_more($service, $id)
+    {
+        $results = __('response.services');
+        foreach ($results as $key => $value) {
+            $data =  (object)$value;
+            if ($key == $service) {
+                foreach($data->lists as $key1 => $value1){
+                    $item =  (object)$value1;
+                    if ($key1 == $id) {
+                        return view('web.service-more', compact('item'));
+                    }
+                }
             }
         }
         return redirect()->route('web.index');

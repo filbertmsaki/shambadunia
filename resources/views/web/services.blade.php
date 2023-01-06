@@ -30,7 +30,7 @@
                                                 alt=""></a>
                                     </div>
                                     <div class="wt-info">
-                                        <h4 class="wt-title m-t20"><a href="{{ route('web.service',$key) }}">{!! substr($value['title'], 0, 30) . '...' !!} </a></h4>
+                                        <h4 class="wt-title m-t20"><a href="{{ route('web.service',$key) }}">{!! substr($value['title'], 0, 50) !!} </a></h4>
                                         @if ($value['paragraphs'])
                                             @foreach ($value['paragraphs'] as $key2 => $value2)
                                                 @if ($loop->first)
@@ -45,8 +45,8 @@
                                         <div class="btn-group">
                                             <a href="{{ route('web.service',$key) }}" class="site-button">{{ __('response.read_more') }} <i
                                                 class="fa fa-angle-double-right"></i></a>
-                                                <a href="{{ $value['play_store_link'] }}" class="btn btn-sm btn-primary">{{ __('response.download') }} <i
-                                                    class="fa fa-download"></i></a>
+                                                {{-- <a href="{{ $value['play_store_link'] }}" class="btn btn-sm btn-primary">{{ __('response.download') }} <i
+                                                    class="fa fa-download"></i></a> --}}
                                         </div>
 
                                     </div>
