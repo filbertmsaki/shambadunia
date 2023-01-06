@@ -54,7 +54,7 @@
                                     data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
                                     data-param8="" data-param9="" data-param10="" data-description="">
                                     <!-- MAIN IMAGE -->
-                                    <img src="{{ asset(__('response.sliders.0.image')) }}" alt=""
+                                    <img loading="lazy" src="{{ asset(__('response.sliders.0.image')) }}" alt=""
                                         data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                         data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                     <!-- LAYERS -->
@@ -151,7 +151,7 @@
                                     data-param7="" data-param8="" data-param9="" data-param10=""
                                     data-description="">
                                     <!-- MAIN IMAGE -->
-                                    <img src="{{ asset(__('response.sliders.1.image')) }}" alt=""
+                                    <img loading="lazy" src="{{ asset(__('response.sliders.1.image')) }}" alt=""
                                         data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                         data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                     <!-- LAYERS -->
@@ -251,7 +251,7 @@
                                     data-param7="" data-param8="" data-param9="" data-param10=""
                                     data-description="">
                                     <!-- MAIN IMAGE -->
-                                    <img src="{{ asset(__('response.sliders.2.image')) }}" alt=""
+                                    <img loading="lazy" src="{{ asset(__('response.sliders.2.image')) }}" alt=""
                                         data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                         data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                     <!-- LAYERS -->
@@ -353,7 +353,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-5 col-md-8 m-b30">
                         <div class="about-com-pic">
-                            <img src="{{ asset('img/consultation.jpg') }}" alt="" class="img-responsive">
+                            <img loading="lazy" src="{{ asset('img/consultation.jpg') }}" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-12 m-b30">
@@ -401,7 +401,7 @@
                             <div class="item">
                                 <div class="ow-event-post date-style-2">
                                     <div class="ow-event-media wt-img-effect zoom-slow">
-                                        <img src="{{ $value['image'] }}" alt="">
+                                        <img loading="lazy" src="{{ $value['image'] }}" alt="">
                                     </div>
                                     <div class="ow-event-info p-a20 bg-gray">
                                         <div class="ow-event-title">

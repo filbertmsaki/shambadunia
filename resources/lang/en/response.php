@@ -262,7 +262,7 @@ return [
         'branding_events' => [
             'title' => 'Branding Events',
             'header' => 'About Branding Events',
-            'image' => 'img/processing.jpg',
+            'image' => 'img/branding-events.jpg',
             'paragraphs' => [],
             'lists' => [
                 'kilimo-marathon-expo' => [
@@ -315,7 +315,7 @@ return [
         'innovation-digital-solutions' => [
             'title' => 'Innovation & Digital Solutions',
             'header' => 'About Innovation & Digital Solutions',
-            'image' => 'img/processing.jpg',
+            'image' => 'img/innovation-digital-solutions.jpg',
             'paragraphs' => [],
             'lists' => [
                 'agriculture-digital-solutions' => [
