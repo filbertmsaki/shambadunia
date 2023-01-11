@@ -268,7 +268,7 @@ return [
                 'kilimo-marathon-expo' => [
                     'title' => 'KILIMO Marathon & Expo',
                     'header' => 'Abount KILIMO Marathon & Expo',
-                    'image' => 'img/kme-image.jpg',
+                    'image' => 'img/kme-image-1.jpg',
                     'paragraphs' => [
                         'p1' => 'KILIMO Marathon & Expo is a yearly festive that brings people from diferent parts of the world to run and enjoy the fun and festive atmosphere in Morogoro.KILIMO Marathon & Expo goers enjoy urban socializing and are excited about the marathon and ultimately choose KILIMO Marathon & Expo as their brand of choice which brings more than just a marathon but also the best festival in town.',
                         'p2' => 'This feeling of excitement is to be culminated through a series of exciting activities pre and during the event which will bring the people together in Morogoro and walk away with feeling that KILIMO Marathon & Expo brings the most exciting festival in town.',
@@ -283,7 +283,7 @@ return [
                 'mkulima-award' => [
                     'title' => 'Mkulima Awards',
                     'header' => 'About Mkulima Awards',
-                    'image' => 'img/mkulima-awards.jpg',
+                    'image' => 'img/award-image-1.jpg',
                     'paragraphs' => [
                         'p1' => 'Celebrating the innovative, determined and extraordinary farmers across all sectors, The MKULIMA Awards showcases the diversity and resilience of the Tanzania farming community, no matter the size or scale of farm businesses.',
                         'p2' => 'Each year we review our award categories to ensure they better reflect the range of achievements that deserve recognition in the rapidly - changing world of agriculture.',

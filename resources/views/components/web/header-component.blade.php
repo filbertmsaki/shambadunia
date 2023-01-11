@@ -29,6 +29,8 @@
                             </ul>
 
                         </li>
+                        <li class="{{ request()->routeIs('web.gallery') ? 'active' : '' }}"><a
+                                href="{{ route('web.gallery') }}">{{ __('response.gallery') }}</a></li>
                         <li class="{{ request()->routeIs('web.contact_us') ? 'active' : '' }}"><a
                                 href="{{ route('web.contact_us') }}">{{ __('response.contact_us') }}</a></li>
                     </ul>
