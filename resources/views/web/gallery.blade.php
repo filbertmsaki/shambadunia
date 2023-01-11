@@ -39,7 +39,7 @@
                                 <div class="wt-gallery-bx p-a15">
                                     <div class="wt-thum-bx wt-img-overlay5 wt-img-effect blurr">
                                         <a href="portfolio-detail.html">
-                                            <img src="{{ asset($item) }}" alt="">
+                                            <img src="{{ asset($item) }}" alt="" loading="lazy">
                                         </a>
                                         <div class="overlay-bx">
                                             <div class="overlay-icon">
