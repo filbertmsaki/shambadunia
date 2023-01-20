@@ -1,61 +1,28 @@
-<div class="section-full p-t80 p-b50">
+<section class="clients clients-carousel clients-1" id="clients-1">
     <div class="container">
-        <div class="section-head text-center">
-            <h2 class="text-uppercase">{{ __('response.our_partners') }}</h2>
-            <div class="wt-separator-outer">
-                <div class="wt-separator style-square">
-                    <span class="separator-left site-bg-primary"></span>
-                    <span class="separator-right site-bg-primary"></span>
+        <div class="row">
+            <div class="col">
+                <h3 class="d-none">{{ __('response.our_partners') }}</h3>
+            </div>
+            <div class="col-12">
+                <div class="carousel owl-carousel" data-slide="6" data-slide-rs="2" data-autoplay="true"
+                    data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="3000">
+                    <div class="client"><a href="javascript:void(0)"> </a><img
+                            src="{{ asset('img/serikali.jpg') }}" alt="client" /></div>
+                    <div class="client"><a href="javascript:void(0)"> </a><img src="{{ asset('img/sagcot.jpg') }}"
+                            alt="client" /></div>
+                    <div class="client"><a href="javascript:void(0)"> </a><img src="{{ asset('img/act.jpg') }}"
+                            alt="client" /></div>
+                    <div class="client"><a href="javascript:void(0)"> </a><img
+                            src="{{ asset('img/shambafm.jpg') }}" alt="client" /></div>
+                    <div class="client"><a href="javascript:void(0)"> </a><img src="{{ asset('img/aboodfm.jpg') }}"
+                            alt="client" /></div>
+                    <div class="client"><a href="javascript:void(0)"> </a><img src="{{ asset('img/kme.jpg') }}"
+                            alt="client" /></div>
                 </div>
             </div>
         </div>
-        <div class="section-content m-b30">
-            <div class="owl-carousel client-logo-carousel">
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/serikali.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/sagcot.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/act.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/shambafm.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/aboodfm.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ow-client-logo">
-                        <div class="client-logo wt-img-effect on-color">
-                            <a href="#"><img src="{{ asset('img/kme.jpg') }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- IMAGE CAROUSEL START -->
+
     </div>
 
-</div>
+</section>

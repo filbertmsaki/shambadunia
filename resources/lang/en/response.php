@@ -39,7 +39,7 @@ return [
     'kmae' => 'Kilimo Marathon, Award & Expo',
     'kme' => 'Kilimo Marathon & Expo',
     'act' => 'Agriculture Council of Tanzania',
-    'sagcot'=>'Sagcot',
+    'sagcot' => 'Sagcot',
     'newsletter' => 'Newsletter',
     'social_links' => 'Social Links',
     'terms_conditions' => 'Terms & Condition',
@@ -50,6 +50,7 @@ return [
     'coming_soon' => 'Coming Soon',
     'go_to_home' => 'GO TO HOME',
     'top' => 'Top',
+    'call_us_now' => 'Call Us Now',
     '' => '',
     '' => '',
     '' => '',
@@ -58,25 +59,26 @@ return [
     /////////////////////////HOME SLIDER//////////////////////////////////
     'sliders' => [
         [
-            'image' => 'img/slider/image1.jpg',
-            'title' => '<span class="site-text-primary">Innovation and Development</span> of Agricultural Sector',
-            'paragraph' => 'ShambaDunia has aspirations to providing world-class solutions and services to the Agricultural sector in Tanzania.',
+            'image' => 'img/slider/image5.jpg',
+            'title' => 'Kilimo Marathon',
+            'paragraph' => 'The Marathon will be of various lengths such as 21km, 10km and 5km within Morogoro.',
             'url_text' => 'Read More',
-            'url' => 'about_us',
+            'url' => 'https://kilimomarathon.co.tz',
         ],
         [
             'image' => 'img/slider/image3.jpg',
-            'title' => '<span class="site-text-primary">Kilimo</span>Expo',
+            'title' => 'Kilimo Expo',
             'paragraph' => 'Are Agriculture Events that showcase various products, produce, and services in the agricultural sector.',
             'url_text' => 'Read More',
             'url' => 'https://kilimomarathon.co.tz',
         ],
+
         [
-            'image' => 'img/slider/image5.jpg',
-            'title' => '<span class="site-text-primary">Kilimo </span>Marathon',
-            'paragraph' => 'The Marathon will be of various lengths such as 21km, 10km and 5km within Morogoro.',
+            'image' => 'img/slider/image1.jpg',
+            'title' => 'Innovation and Development of Agricultural Sector',
+            'paragraph' => 'ShambaDunia has aspirations to providing world-class solutions and services to the Agricultural sector in Tanzania.',
             'url_text' => 'Read More',
-            'url' => 'https://kilimomarathon.co.tz',
+            'url' => 'about_us',
         ]
     ],
     /////////////////////////About Company Txt///////////////////////////////
@@ -258,7 +260,7 @@ return [
             // ],
         ]
     ],
-    'services' => [
+    'services_list' => [
         'branding_events' => [
             'title' => 'Branding Events',
             'header' => 'About Branding Events',
@@ -268,7 +270,7 @@ return [
                 'kilimo-marathon-expo' => [
                     'title' => 'KILIMO Marathon & Expo',
                     'header' => 'Abount KILIMO Marathon & Expo',
-                    'image' => 'img/kme-image-1.jpg',
+                    'image' => 'images/kmae-header.jpg',
                     'paragraphs' => [
                         'p1' => 'KILIMO Marathon & Expo is a yearly festive that brings people from diferent parts of the world to run and enjoy the fun and festive atmosphere in Morogoro.KILIMO Marathon & Expo goers enjoy urban socializing and are excited about the marathon and ultimately choose KILIMO Marathon & Expo as their brand of choice which brings more than just a marathon but also the best festival in town.',
                         'p2' => 'This feeling of excitement is to be culminated through a series of exciting activities pre and during the event which will bring the people together in Morogoro and walk away with feeling that KILIMO Marathon & Expo brings the most exciting festival in town.',
@@ -277,18 +279,55 @@ return [
                         'p5' => 'The exhibition is of various products, produce, and services in the agricultural sector. The Exhibition aims to promote investment opportunities in the diferent areas of the agricultural value chain and to expose stakeholders to diferent modern technologies and innovations used in the production, processing, and marketing of diferent areas of agriculture.',
                         'p6' => 'Entry by the public is free but runners have to pay Tsh. 40,000 for 21km, Tsh. 35,000 for 10km and Tsh. 25,000 for 5km. Exhibitors pay Tsh. 1,000,000 to exhibit and are given a 3x3m Booth with a tent for their display.',
                     ],
+                    'images' => [
+                        'images/marathon/KME-1.jpg',
+                        'images/marathon/KME-2.jpg',
+                        'images/marathon/KME-3.jpg',
+                        'images/marathon/KME-4.jpg',
+                        'images/marathon/KME-5.jpg',
+                        'images/marathon/KME-6.jpg',
+                        'images/marathon/KME-7.jpg',
+                        'images/marathon/KME-8.jpg',
+                        'images/marathon/KME-9.jpg',
+                        'images/marathon/KME-10.jpg',
+                        'images/marathon/KME-11.jpg',
+                        'images/marathon/KME-12.jpg',
+                        'images/marathon/KME-13.jpg',
+                        'images/marathon/KME-14.jpg',
+                        'images/marathon/KME-15.jpg',
+                        'images/marathon/KME-16.jpg',
+                        'images/marathon/KME-18.jpg',
+                        'images/marathon/KME-19.jpg',
+                        'images/marathon/KME-20.jpg',
+                    ],
                     'url' => 'https://kilimomarathon.co.tz/',
                     'url_text' => 'Visit Website',
                 ],
                 'mkulima-award' => [
                     'title' => 'Mkulima Awards',
                     'header' => 'About Mkulima Awards',
-                    'image' => 'img/award-image-1.jpg',
+                    'image' => 'images/awards-header.jpg',
                     'paragraphs' => [
                         'p1' => 'Celebrating the innovative, determined and extraordinary farmers across all sectors, The MKULIMA Awards showcases the diversity and resilience of the Tanzania farming community, no matter the size or scale of farm businesses.',
                         'p2' => 'Each year we review our award categories to ensure they better reflect the range of achievements that deserve recognition in the rapidly - changing world of agriculture.',
                         'p3' => 'The aims and objectives of these prestigious Awards are to encourage, acknowledge and reward the valuable contribution businesses, groups, organisations and individuals are making throughout regional and rural Tanzania.',
                         'p4' => 'Digital media partners, Newspapers, TV and Radio Networks along with Influential personalities assist us to identify and acknowledge Agriculture heroes.',
+                    ],
+                    'images' => [
+                        'images/awards/IMG_6001.jpg',
+                        'images/awards/IMG_6002.jpg',
+                        'images/awards/IMG_6003.jpg',
+                        'images/awards/IMG_6004.jpg',
+                        'images/awards/IMG_6005.jpg',
+                        'images/awards/IMG_6006.jpg',
+                        'images/awards/IMG_6007.jpg',
+                        'images/awards/IMG_6008.jpg',
+                        'images/awards/IMG_6009.jpg',
+                        'images/awards/IMG_6010.jpg',
+                        'images/awards/IMG_6011.jpg',
+                        'images/awards/IMG_6012.jpg',
+                        'images/awards/IMG_6013.jpg',
+                        'images/awards/IMG_6014.jpg',
                     ],
                     'url' => 'https://kilimomarathon.co.tz/',
                     'url_text' => 'Visit Website',
@@ -297,7 +336,7 @@ return [
                     'title' => 'Mr. & Miss KILIMO',
                     'header' => 'About Mr. & Miss KILIMO',
                     'theme' => 'Let’s Make Agriculture Attractive',
-                    'image' => 'img/mr-miss-kilimo.jpg',
+                    'image' => 'images/mr-miss-kilimo.jpg',
                     'paragraphs' => [
                         'p1' => 'The MR. & MISS KILIMO pageant aims at recognizing all young men and women that have empowered themselves and succeeded to make an impact in the Agriculture value chain.',
                         'p2' => 'This prestigious award will be presented by a special guest of honor and the winners will receive a special prize plus a certifcate of recognition as well as a range of other opportunities from stakeholders.',
@@ -307,6 +346,7 @@ return [
                         'p6' => 'The MR. & Miss KILIMO winners take an active role in establishing other unknown sites that are found all over Tanzania.',
                         'p7' => 'Local farmers and other business owners that trade within the agriculture industry as well as those who ofer hospitality services will be encouraged to list their businesses, farms and sites on a special directory platform that has been created by Shambadunia and promoted by the MR. & MISS KILIMO pageant.',
                     ],
+                    'images' => [],
                     'url' => 'https://kilimomarathon.co.tz/',
                     'url_text' => 'Visit Website',
                 ],
@@ -321,7 +361,7 @@ return [
                 'agriculture-digital-solutions' => [
                     'title' => 'Agriculture Digital Solutions',
                     'header' => 'About Agriculture Digital Solutions',
-                    'image' => 'img/shambadunia-app.jpg',
+                    'image' => 'images/shambadunia-app.jpg',
                     'play_store_link' => 'https://play.google.com/store/apps/details?id=com.shambadunia.shambadunia&hl=en_US&gl=US',
                     'paragraphs' => [
                         'p1' => 'Shambadunia brings a newly agribusiness innovations that levels the playing field for small holder farmers, giving them equal access to technologies and providing the capabilities to take advantage of the new mobile economy.',
@@ -333,32 +373,36 @@ return [
                 'shambadunia-vendor-app' => [
                     'title' => 'Shamba Dunia Vendor App',
                     'header' => 'About Shamba Dunia Vendor App',
-                    'image' => 'img/shambadunia-vendor-app.jpg',
+                    'image' => 'images/shambadunia-vendor.jpg',
                     'paragraphs' => [
                         'p1' => 'The Shamba Dunia Vendor App enables a Certified Vendor to work as a Shamba Dunia agent to sell it’s products directly from anywhere in Tanzania. This is for Certified Vendors only.',
                     ],
+                    'images' => [],
                     'url' => 'https://play.google.com/store/apps/details?id=com.shambadunia.vendors&hl=sw&gl=US',
                     'url_text' => 'Download',
                 ],
                 'shambadunia-driver-app' => [
                     'title' => 'Shamba Dunia Logistics Solution (Driver App)',
                     'header' => 'About Shamba Dunia Logistics Solution',
-                    'image' => 'img/shambadunia-driver-app.jpg',
+                    'image' => 'images/shambadunia-driver.jpg',
                     'url_text' => 'Download',
                     'url' => 'https://play.google.com/store/apps/details?id=com.shambadunia.driver&hl=sw&gl=US',
                     'paragraphs' => [
                         'p1' => 'Shambadunia help to Connecting buyers and farmers to a pool of transporters.',
                     ],
+                    'images' => [],
+
                 ],
                 'shambadunia-crowd-funding-app' => [
                     'title' => 'Shamba Dunia Investment Solution (Crowd Funding App)',
                     'header' => 'About Shamba Dunia Investment Solution',
-                    'image' => 'img/shambadunia-invester-app.jpg',
+                    'image' => 'images/shambadunia-invest.jpg',
                     'url_text' => 'Download',
                     'url' => 'https://play.google.com/store/apps/details?id=shambadunia.com.crowd_funding&hl=de&gl=US',
                     'paragraphs' => [
                         'p1' => 'A special system to enable Tanzanians to invest and profit from this integrated system that supports the implementation of major agricultural projects entirely managed by Shamba Dunia',
                     ],
+                    'images' => [],
                 ],
             ]
         ],

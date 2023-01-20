@@ -1,99 +1,118 @@
 <x-web-layout>
     @section('title', $service->title)
-
-    <div class="page-content">
-        <!-- BREADCRUMB ROW -->
-        <div class="bg-gray-light p-tb20">
+    <section class="page-title page-title-13" id="page-title">
+        <div class="page-title-wrap bg-overlay bg-overlay-dark-3">
+            <div class="bg-section"><img src="{{ asset('assets/images/page-titles/13.jpg') }}" alt="Background" /></div>
             <div class="container">
-                <ul class="wt-breadcrumb breadcrumb-style-2">
-                    <li><a href="{{ route('web.index') }}"><i class="fa fa-home"></i> {{ __('response.home') }}</a></li>
-                    <li>{{ $service->title }}</li>
-                </ul>
+                <div class="row">
+                    <div class="col-12 col-lg-6 offset-lg-3">
+                        <div class="title text-center">
+                            <h1 class="title-heading">{{ $service->title }}</h1>
+                            <ol class="breadcrumb breadcrumb-light d-flex
+                    justify-content-center">
+                                <li class="breadcrumb-item"><a
+                                        href="{{ route('web.index') }}">{{ __('response.home') }}</a></li>
+                                <li class="breadcrumb-item"><a
+                                        href="javascript:void(0)">{{ __('response.our_services') }}</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">{{ $service->title }}</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- BREADCRUMB ROW END -->
-
-        <!-- SECTION CONTENT START -->
-        <div class="section-full p-t80 p-b50">
+    </section>
+    @if ($service->lists)
+        <section class="blog blog-grid blog-grid-5" id="blog">
             <div class="container">
-                <!-- LEFT PART START -->
-                @if ($service->lists)
-                    <div class="row d-flex flex-wrap">
-                        <h3 class="wt-title m-t0">{{ $service->title }}</h3>
-                        @foreach ($service->lists as $key => $value)
-                            <div class="col-md-4  m-b30 d-flex">
-                                <div class="wt-box p-a20 border-1 bg-gray">
-                                    <div class="wt-media">
-                                        <a href="{{ route('web.service.more', ['service' => $id, 'key' => $key]) }}"><img
-                                                src="{{ asset($value['image']) }}" alt=""></a>
+                <div class="row">
+                    @foreach ($service->lists as $key => $value)
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="blog-entry" data-hover="">
+                                <div class="entry-content">
+                                    <div class="entry-title">
+                                        <h4><a
+                                                href="{{ route('web.services.more', ['service' => $id, 'key' => $key]) }}">{{ $value['title'] }}</a>
+                                        </h4>
                                     </div>
-                                    <div class="wt-info">
-                                        <h4 class="wt-title m-t20"><a
-                                                href="{{ route('web.service.more', ['service' =>  $id, 'key' => $key]) }}">{!! substr($value['title'], 0, 50) !!}
-                                            </a></h4>
+                                    <div class="entry-img-wrap">
+                                        <div class="entry-img"><a
+                                                href="{{ route('web.services.more', ['service' => $id, 'key' => $key]) }}"><img
+                                                    src="{{ asset($value['image']) }}"
+                                                    alt="{{ $value['title'] }}" /></a>
+                                        </div>
+                                    </div>
+                                    <div class="entry-bio">
                                         @if ($value['paragraphs'])
                                             @foreach ($value['paragraphs'] as $key2 => $value2)
                                                 @if ($loop->first)
-                                                    @if (strlen($value2) <= 80)
+                                                    @if (strlen($value2) <= 100)
                                                         <p> {!! $value2 !!}</p>
                                                     @else
-                                                        <p> {!! substr($value2, 0, 80) . '...' !!}</p>
+                                                        <p> {!! substr($value2, 0, 100) . '...' !!}</p>
                                                     @endif
                                                 @endif
                                             @endforeach
                                         @endif
-                                        <div class="btn-group">
-                                            <a href="{{ route('web.service.more', ['service' =>  $id, 'key' => $key]) }}"
-                                                class="site-button">{{ __('response.read_more') }} <i
-                                                    class="fa fa-angle-double-right"></i></a>
-                                            {{-- <a href="{{ $value['play_store_link'] }}" class="btn btn-sm btn-primary">{{ __('response.download') }} <i
-                                            class="fa fa-download"></i></a> --}}
-                                        </div>
-
+                                    </div>
+                                    <div class="entry-more"> <a
+                                            class="btn btn--white btn-bordered"
+                                            href="{{ route('web.services.more', ['service' => $id, 'key' => $key]) }}">read
+                                            more <i class="energia-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
-                        @endforeach
-
-
-                    </div>
-                @else
-                    <div class="row">
-                        <div class="col-lg-4 col-md-8 m-b30">
-                            <div class="wt-team-full-media">
-                                <div class="wt-team-one bg-white p-a10">
-                                    <div class="wt-team-media">
-                                        <img src="{{ asset($service->image) }}" alt="{{ $service->title }}">
-                                    </div>
-
-                                </div>
-                            </div>
-
                         </div>
-                        <div class="col-lg-8 col-md-12 m-b30">
-                            <div class="wt-info wt-team-full-info">
-                                <h3 class="wt-title m-t0">{{ $service->title }}</h3>
-                                <ul class="list-check secondry">
+                    @endforeach
+                </div>
+            </div>
+        </section>
+    @else
+        <section class="service-single" id="service-single">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 order-1">
+                        <div class="sidebar sidebar-service">
+                            <div class="widget widget-services">
+                                <div class="widget-title">
+                                    <h5>{{ __('response.our_services') }}</h5>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="list-unstyled">
+                                        @foreach (trans()->get('response.services_list') as $key => $value)
+                                            <li><a href="{{ route('web.services.show', $key) }}">
+                                                    <span>{{ $value['title'] }}</span><i
+                                                        class="energia-arrow-right"></i></a></li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8 order-0 order-lg-2">
+                        <div class="service-entry">
+                            <div class="entry-content">
+                                <div class="entry-introduction entry-infos">
+                                    <h5 class="entry-heading">{{ $service->title }}</h5>
+
                                     @if ($service->paragraphs)
                                         @foreach ($service->paragraphs as $key2 => $value2)
-                                            <li>{{ $value2 }}</li>
+                                            <p class="entry-desc">{{ $value2 }}</p>
                                         @endforeach
                                     @endif
-                                </ul>
+                                </div>
 
-
-                                {{-- @if ($service->play_store_link)
-                            <a href="{{ $service->play_store_link }}" class="btn btn-sm btn-primary">{{ __('response.download') }} <i
-                                class="fa fa-download"></i></a>
-                            @endif --}}
                             </div>
                         </div>
+
                     </div>
 
-                @endif
+                </div>
 
             </div>
-        </div>
 
-    </div>
+        </section>
+
+        <x-web.clients-component />
+    @endif
 </x-web-layout>

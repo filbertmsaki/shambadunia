@@ -1,51 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html dir="ltr" lang="en-US">
 <x-web.head-component />
 
-<body id="bg">
-
-    <div class="page-wraper">
-
-        <!-- HEADER START -->
-     <x-web.header-component />
-        <!-- HEADER END -->
-
-        <!-- CONTENT START -->
-      {{ $slot }}
+<body>
+    <div class="preloader">
+        <div class="dual-ring"></div>
+    </div>
+    <div class="wrapper clearfix" id="wrapperParallax">
+        <x-web.header-component />
+        {{ $slot }}
         <x-web.footer-component />
-        <button class="scroltop"><span class=" iconmoon-house relative" id="btn-vibrate"></span>{{ __('response.top') }}</button>
+
+
+        <div class="back-top" id="back-to-top" data-hover=""><i class="energia-arrow-up"></i></div>
     </div>
 
+    <x-web.scripts-component />
 
-
-    <!-- LOADING AREA START ===== -->
-    {{-- <div class="loading-area">
-        <div class="loading-box"></div>
-        <div class="loading-pic">
-            <div class="loader">
-                <span class="block-1"></span>
-                <span class="block-2"></span>
-                <span class="block-3"></span>
-                <span class="block-4"></span>
-                <span class="block-5"></span>
-                <span class="block-6"></span>
-                <span class="block-7"></span>
-                <span class="block-8"></span>
-                <span class="block-9"></span>
-                <span class="block-10"></span>
-                <span class="block-11"></span>
-                <span class="block-12"></span>
-                <span class="block-13"></span>
-                <span class="block-14"></span>
-                <span class="block-15"></span>
-                <span class="block-16"></span>
-            </div>
-        </div>
-    </div> --}}
-    <!-- LOADING AREA  END ====== -->
-
-<x-web.scripts-component />
 </body>
+
 
 </html>

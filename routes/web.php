@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Web\ServicesController;
 use App\Http\Controllers\Web\WebController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,9 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::group(['as' => 'web.'], function () {
     Route::get('/', [WebController::class, 'index'])->name('index');
     Route::get('/about-us', [WebController::class, 'about_us'])->name('about_us');
-    Route::get('/services', [WebController::class, 'services'])->name('services');
-    Route::get('/services/{service}', [WebController::class, 'service'])->name('service');
-    Route::get('/services/{service}/{key}', [WebController::class, 'service_more'])->name('service.more');
+    // Route::get('/services', [WebController::class, 'services'])->name('services');
+    // Route::get('/services/{service}', [WebController::class, 'service'])->name('service');
     Route::get('/contact-us', [WebController::class, 'contact_us'])->name('contact_us');
     Route::post('/contact-us', [WebController::class, 'contact_us_store'])->name('contact_us.store');
     Route::post('/subscriber', [WebController::class, 'subscriber'])->name('subscriber.store');
@@ -30,6 +30,9 @@ Route::group(['as' => 'web.'], function () {
     Route::get('/gallery', [WebController::class, 'gallery'])->name('gallery');
     Route::get('/coming-soon', [WebController::class, 'coming_soon'])->name('coming.soon');
     Route::get('/branding-events/{event}', [WebController::class, 'branding_events'])->name('branding.events');
+
+    Route::get('/services/{service}/{key}', [ServicesController::class, 'service_more'])->name('services.more');
+    Route::resource('services',ServicesController::class);
 });
 
 Route::middleware([
