@@ -74,7 +74,7 @@
         </div>
 
     </section>
- 
+
 
     <x-web.why-choose-us-component />
 
@@ -132,60 +132,5 @@
 
     </section>
 
-    <section class="about about-2" id="about-2">
-        <div class="about-wrapper">
-
-            <div class="video-wrapper">
-                <div class="video video-2" id="video-2">
-                    <div class="bg-section"><img src="assets/images/video/2.jpg" alt="background" /></div><a
-                        class="popup-video btn-video
-                btn-video-2"
-                        href="../../www.youtube.com/watch1ac3.html?v=nrJtHemSPW4"> <i class="fas fa-play"></i></a>
-
-                </div>
-
-            </div>
-
-            <div class="about-block-wrapper">
-                <div class="about-block">
-                    <div class="heading heading-1">
-                        <p class="heading-subtitle heading-subtitle-bg">Complete
-                            Commercial And Residential Solar Systems</p>
-                        <h2 class="heading-title">The Pioneers World Of Solar And
-                            Renewable Energy!</h2>
-                        <p class="heading-desc">Our solar programs encompass a broad
-                            range of material sourcing, trade financing and inventory
-                            management services to help customers become more profitable
-                            by optimizing working capital and increasing liquidity.</p>
-                        <div class="signature-block"><a class="btn btn--secondary" href="page-about.html">read more
-                                <i class="energia-arrow-right"></i></a>
-                            <div class="signature-body">
-                                <h6>michael brian</h6>
-                                <p>co founder</p><img class="signature-img" src="assets/images/signature/1.png"
-                                    alt="signature" />
-                            </div>
-                        </div>
-                        <div class="advantages-list-holder">
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <p>How can we meet the growing demand for electricity
-                                        while protecting our climate?</p>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <ul class="list-unstyled advantages-list">
-                                        <li>Reliabe and performance</li>
-                                        <li>In-time manufacturing</li>
-                                        <li>Solar material financing</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
     <x-web.clients-component />
 </x-web-layout>
