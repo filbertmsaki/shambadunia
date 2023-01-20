@@ -18,7 +18,8 @@
                                         <div class="slide-action"><a class="btn btn--primary" href="{{ $value['url'] }}"
                                                 target="__blank">
                                                 <span>{{ $value['url_text'] }}</span><i
-                                                    class="energia-arrow-right"></i></a></div>
+                                                    class="energia-arrow-right"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -53,22 +54,17 @@
                                     <p>{{ __('response.about_company.paragraphs.1') }}</p>
                                     <p>{{ __('response.about_company.paragraphs.2') }}</p>
                                     <a class="btn btn--secondary"
-                                        href="{{ route('web.about_us') }}">{{ __('response.read_more') }}<i class="energia-arrow-right"></i></a>
+                                        href="{{ route('web.about_us') }}">{{ __('response.read_more') }}<i
+                                            class="energia-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
-
-
+    <x-web.why-choose-us-component />
     <x-web.clients-component />
-
-
 </x-web-layout>

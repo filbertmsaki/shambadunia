@@ -48,66 +48,8 @@
 
     </section>
 
-    <section class="features features-1 bg-overlay bg-overlay-theme2" id="features-1">
-        <div class="bg-section"> <img src="assets/images/background/2.jpg" alt="Background" /></div>
-        <div class="container">
-            <div class="heading heading-2 heading-light heading-light2">
+    <x-web.why-choose-us-component />
 
-                <div class="row ">
-                    <div class="col-12 d-flex justify-content-center">
-                        <h2 class="heading-title">{{ __('response.why_choose_us') }}</h2>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="row d-flex flex-wrap">
-                <div class="col-md-4 d-flex ">
-                    <div class="feature-panel-holder  " data-hover="">
-                        <div class="feature-panel">
-                            <div class="feature-icon"><i class="fa fa-bullseye"></i></div>
-                            <div class="feature-content">
-                                <h4>{{ __('response.our_mission.title') }}</h4>
-                                <p>{{ __('response.our_mission.text') }}</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex ">
-                    <div class="feature-panel-holder " data-hover="">
-                        <div class="feature-panel">
-                            <div class="feature-icon"><i class="fa fa-eye"></i></div>
-                            <div class="feature-content">
-                                <h4>{{ __('response.our_vision.title') }}</h4>
-                                <p>{{ __('response.our_vision.text') }}</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-md-4 d-flex ">
-                    <div class="feature-panel-holder" data-hover="">
-                        <div class="feature-panel">
-                            <div class="feature-icon"><i class="fa fa-hand-holding-heart"></i></div>
-                            <div class="feature-content">
-                                <h4>{{ __('response.our_value.title') }}</h4>
-                                <p>{{ __('response.our_value.text') }}</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
 
     <x-web.clients-component />
 

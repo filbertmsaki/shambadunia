@@ -1,52 +1,27 @@
-<div class="section-full bg-gray p-t80 p-b50">
+<section class="features features-2 bg-overlay bg-overlay-theme2" id="features-2">
+    <div class="bg-section"> <img src="{{ asset('images/runners.jpg') }}" alt="Background" /></div>
     <div class="container">
-        <!-- TITLE START-->
-        <div class="section-head text-center">
-            <h2 class="text-uppercase">{{ __('response.why_choose_us') }}</h2>
-            <div class="wt-separator-outer">
-                <div class="wt-separator style-square">
-                    <span class="separator-left site-bg-primary"></span>
-                    <span class="separator-right site-bg-primary"></span>
+        <div class="heading heading-2 heading-light heading-light2">
+            <div class="row">
+                <div class="col-12 text--center">
+                    <h2 class="heading-title">{{ __('response.why_choose_us.title') }}</h2>
                 </div>
             </div>
         </div>
-        <!-- TITLE END-->
-        <div class="section-content m-b20">
-            <div class="row d-flex flex-wrap">
-                <div class="d-flex col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
-                    <div class="wt-icon-box-wraper  p-a30 center bg-white">
-                        <div class="icon-sm site-text-primary m-b20">
-                            <span class="icon-cell"><i class="fa fa-bullseye" aria-hidden="true"></i></span>
-                        </div>
-                        <div class="icon-content">
-                            <h5 class="wt-tilte text-uppercase">{{ __('response.our_mission.title') }}</h5>
-                            <p>{{ __('response.our_mission.text') }}</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
-                    <div class="wt-icon-box-wraper  p-a30 center bg-white">
-                        <div class="icon-sm site-text-primary m-b20">
-                            <span class="icon-cell"><i class="fa fa-eye" aria-hidden="true"></i></span>
-                        </div>
-                        <div class="icon-content ">
-                            <h5 class="wt-tilte text-uppercase">{{ __('response.our_vision.title') }}</h5>
-                            <p>{{ __('response.our_vision.text') }}</p>
+        <div class="row">
+            @foreach (trans()->get('response.why_choose_us.lists') as $key => $value)
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="feature-panel-holder d-flex flex-wrap" data-hover="">
+                        <div class="feature-panel">
+                            <div class="feature-icon"><i class="{{ $value['icon'] }}"></i></div>
+                            <div class="feature-content">
+                                <h4>{{ $value['title'] }}</h4>
+                                <p>{{ $value['text'] }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="d-flex col-lg-4 col-md-6 col-sm-6 m-b10 animate_line">
-                    <div class="wt-icon-box-wraper  p-a30 center bg-white ">
-                        <div class="icon-sm site-text-primary m-b20">
-                            <span class="icon-cell"><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                        </div>
-                        <div class="icon-content">
-                            <h5 class="wt-tilte text-uppercase">{{ __('response.our_value.title') }}</h5>
-                            <p>{{ __('response.our_value.text') }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
-</div>
+</section>

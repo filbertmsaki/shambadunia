@@ -113,19 +113,27 @@ return [
     'our_partner' => 'Our Partner',
     'our_partners' => 'Our Partners',
     'about' => [],
-    'our_mission' => [
-        'title' => 'Our Mission',
-        'text' => 'Creating digital market, Information and investments platforms.'
+
+    'why_choose_us' => [
+        'title' => 'Why Choose Us',
+        'lists' => [
+            'our_mission' => [
+                'icon'=>'flaticon-024-energy',
+                'title' => 'Our Mission',
+                'text' => 'Creating digital market, Information and investments platforms.'
+            ],
+            'our_vision' => [
+                'icon'=>'flaticon-024-energy',
+                'title' => 'Our Vision',
+                'text' => 'To Brand and digitize agriculture sector in Tanzania.'
+            ],
+            'our_value' => [
+                'icon'=>'flaticon-024-energy',
+                'title' => 'Our Value',
+                'text' => 'We believe in enthusiastic team work, good communication, honesty and equal opportunities.'
+            ],
+        ]
     ],
-    'our_vision' => [
-        'title' => 'Our Vision',
-        'text' => 'To Brand and digitize agriculture sector in Tanzania.'
-    ],
-    'our_value' => [
-        'title' => 'Our Value',
-        'text' => 'We believe in enthusiastic team work, good communication, honesty and equal opportunities.'
-    ],
-    'why_choose_us' => 'Why Choose Us',
     'what_we_do' => [
         'title' => 'What We Do',
         'text' => 'We invest in a range of products that enable access to information, bridging the gap between partners and eventually in-crease sales and investment to impact the growth of Tanzania’s Agricultural Sector',
