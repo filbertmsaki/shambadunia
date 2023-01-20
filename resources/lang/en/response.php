@@ -104,6 +104,7 @@ return [
         ]
     ],
     'about_shambadunia' => 'About Shambadunia Limited',
+    'innovation_development_of_agriculture_solutions'=>'Innovation and Development of Agricultural Solutions',
     'our_agriculture_solution' => 'Our Agriculture Solutions',
     'mission' => 'Mission',
     'vision' => 'Vision',
