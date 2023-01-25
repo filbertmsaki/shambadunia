@@ -1,6 +1,10 @@
-<script src=" {{ asset('assets/js/vendor/jquery-3.6.0.min.js') }}"></script>
-<script src="{{ asset('assets/js/vendor.js') }}"></script>
-<script src="{{ asset('assets/js/functions.js') }}"></script>
+<script
+    src=" {{ asset('assets/js/vendor/jquery-3.6.0.min.js') . '?v=' . filemtime(base_path() . '/public/assets/js/vendor/jquery-3.6.0.min.js') }}">
+</script>
+<script src="{{ asset('assets/js/vendor.js') . '?v=' . filemtime(base_path() . '/public/assets/js/vendor.js') }}">
+</script>
+<script src="{{ asset('assets/js/functions.js') . '?v=' . filemtime(base_path() . '/public/assets/js/functions.js') }}">
+</script>
 <script>
     var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?15143';
     var s = document.createElement('script');
