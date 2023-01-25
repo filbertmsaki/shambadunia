@@ -18,7 +18,7 @@
                 <div class="col-12 col-md-4">
                     <div class="about-img">
                         <div class="about-img-holder bg-overlay">
-                            <div class="bg-section"><img src="{{ asset('images/IMG_6837.jpg') }}" alt="about Image" />
+                            <div class="bg-section"><img src="{{ asset('images/mkulima-awards.jpg') }}" alt="about Image" />
                             </div>
                         </div>
 

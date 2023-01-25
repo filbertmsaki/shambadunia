@@ -119,17 +119,17 @@ return [
         'title' => 'Why Choose Us',
         'lists' => [
             'our_mission' => [
-                'icon'=>'flaticon-024-energy',
+                'icon'=>'fa-bullseye',
                 'title' => 'Our Mission',
                 'text' => 'Creating digital market, Information and investments platforms.'
             ],
             'our_vision' => [
-                'icon'=>'flaticon-024-energy',
+                'icon'=>'fa-eye',
                 'title' => 'Our Vision',
                 'text' => 'To Brand and digitize agriculture sector in Tanzania.'
             ],
             'our_value' => [
-                'icon'=>'flaticon-024-energy',
+                'icon'=>'fa-handshake',
                 'title' => 'Our Value',
                 'text' => 'We believe in enthusiastic team work, good communication, honesty and equal opportunities.'
             ],
@@ -274,7 +274,9 @@ return [
             'title' => 'Branding Events',
             'header' => 'About Branding Events',
             'image' => 'img/branding-events.jpg',
-            'paragraphs' => [],
+            'paragraphs' => [
+                'Kilimo Marathon, Awards & Expo is a unique agro sports Event in East Africa, Tanzania. With the aim of offering a tangible support in Tanzania’s agricultural growth by realizing an increase in investments and sales of agricultural products.'
+            ],
             'lists' => [
                 'kilimo-marathon-expo' => [
                     'title' => 'KILIMO Marathon & Expo',
@@ -365,7 +367,9 @@ return [
             'title' => 'Innovation & Digital Solutions',
             'header' => 'About Innovation & Digital Solutions',
             'image' => 'img/innovation-digital-solutions.jpg',
-            'paragraphs' => [],
+            'paragraphs' => [
+                'Shambadunia LTD through their digital software, enables farmers to collect and analyze billions of data from their fields to help make better and more informed decisions that can also improve yield and marketing of their products.'
+            ],
             'lists' => [
                 'agriculture-digital-solutions' => [
                     'title' => 'Agriculture Digital Solutions',
